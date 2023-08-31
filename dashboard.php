@@ -55,8 +55,8 @@ else
         </div>
 
         <div class="quadrado_anuncio"></div>
-
-
+        <br>
+        <div class="mercado"> </div>
         
         <h1>OS MAIS ESCALADOS</h1>
         <div class="escalados">

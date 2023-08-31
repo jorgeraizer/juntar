@@ -4,6 +4,7 @@ body
     height: 100vh;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
 }
 
 .cabecalho
@@ -119,15 +120,15 @@ h1
 .escalados
 {
     width: 89%;
-    height: 500px;
+    height: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
-    background-color: rgb(230, 226, 226);
-    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -135,7 +136,7 @@ h1
 
 .titulares
 {
-    background-color: rgb(230, 226, 226);
+    background-color: rgb(255, 255, 255);
     display: flex;
     padding: auto; 
     text-align: center;
@@ -200,7 +201,7 @@ hr
 .nome
 {
     text-transform:uppercase;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -222,21 +223,45 @@ hr
 
 .Ver_todos
 {
-    background-color: #ff0000; /* cor de fundo */
-    border: none; /* sem borda */
-    color: white; /* cor do texto */
-    padding: 4px 16px; /* espaçamento interno */
-    text-align: center; /* alinhamento do texto */
-    text-decoration: none; /* sem sublinhado */
-    display: inline-block; /* faz com que o botão não ocupe toda a largura */
-    font-size: 16px; /* tamanho da fonte */
-    cursor: pointer; /* cursor em forma de mão */
-    border-radius: 12px; /* bordas arredondadas */
-    transition: 0.3s; /* transição suave para o efeito de hover */
+    background-color: #ffffff; 
+    border: none; 
+    color: rgb(0, 0, 0);
+    padding: 4px 16px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 6px; 
+    transition: 0.3s; 
     margin-top: -5px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
 }
 
-/* Efeito de hover (quando o mouse passa por cima) */
+
 .Ver_todos:hover {
-    background-color: #ff0000; /* muda a cor de fundo */
+    background-color: #ffffff; 
+}
+
+.posicao
+{
+    font-size: 13px;
+    margin-top: 5px;
+    color: rgb(136, 135, 135);
+}
+
+.mercado
+{
+    width: 89%;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
