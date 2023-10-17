@@ -57,8 +57,11 @@ else
         <div class="quadrado_anuncio"></div>
         <br>
         <div class="mercado"> 
+            <div class="nomeconta"> Futville FC </div>
+            <div class="infos"> Patrimônio </div>
+            <div class="infos"> Última pontuação </div>
+            <div class="infos"> Total </div>
 
-            
 
         </div>
         
