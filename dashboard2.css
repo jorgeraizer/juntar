@@ -264,24 +264,50 @@ hr
     border-radius: 12px;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 .nomeconta
 {
     text-transform:uppercase;
     font-size: 20px;
     font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 10px;
     
 }
-.div-principal {
-    display: flex;         /* Ativa o flexbox */
-    justify-content: space-between; /* Distribui as sub-divs uniformemente */
-    align-items: flex-end; /* Alinha as sub-divs na parte inferior */
-    height: 200px;         /* Definido apenas para demonstração. Ajuste conforme necessário. */
-    border: 1px solid black; /* Borda para visualização. Opcional. */
+.titulos
+{
+    display: flex;
 }
-
-.sub-div {
-    width: 30%;            /* Ajuste a largura conforme necessário. */
-    height: 100px;         /* Definido apenas para demonstração. Ajuste conforme necessário. */
-    border: 1px solid red; /* Borda para visualização. Opcional. */
+.infos 
+{
+    display: flex;
+    flex: 1;  /* Faz cada div ocupar um espaço igual no container */
+    box-sizing: border-box;  /* Considera a borda e o padding no cálculo da largura */
+    justify-content: space-around;
+    font-size: 12px;
+    white-space: nowrap;
+    color: rgb(136, 135, 135);
+    margin-bottom: 5px;
+    height: 5px;
+}
+.pontuacoes
+{
+    display: flex;
+}
+.pontos 
+{
+    display: flex;
+    flex: 1;  /* Faz cada div ocupar um espaço igual no container */
+    box-sizing: border-box;  /* Considera a borda e o padding no cálculo da largura */
+    justify-content: space-around;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 5px;
+    height: 50%;
+}
+.fotoperfil
+{
+    width: 50px;
 }

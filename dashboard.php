@@ -55,15 +55,24 @@ else
         </div>
 
         <div class="quadrado_anuncio"></div>
-        <br>
+        <br> <br>
         <div class="mercado"> 
             <div class="nomeconta"> Futville FC </div>
-            <div class="infos"> Patrimônio </div>
-            <div class="infos"> Última pontuação </div>
-            <div class="infos"> Total </div>
-
+            <div class="fotoperfil"><img class="fotoperfil" src="perfilsemfoto.png"></div>
+            <div class="titulos">
+                <div class="infos"> Patrimônio </div>
+                <div class="infos"> Última  pontuação </div>
+                <div class="infos"> Total </div>
+            </div>
+            <div class="pontuacoes">
+                <div class="pontos"> F$101.20 </div>
+                <div class="pontos"> 51.37 </div>
+                <div class="pontos"> 155.72 </div>
+            </div>
 
         </div>
+
+        <br> <br>
         
         <h1>OS MAIS ESCALADOS</h1>
         <div class="escalados">
