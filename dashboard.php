@@ -57,9 +57,16 @@ else
         <div class="quadrado_anuncio"></div>
         <br> <br>
         <div class="mercado"> 
-            <div class="nomeconta"> Futville FC </div>
-            <div class="fotoperfil"><img class="fotoperfil" src="perfilsemfoto.png"></div>
+        
+            <button class="ver_perfil">
+                <span class="Ver Perfil">VER PERFIL</span>
+            </button>
+            <div class="nome_foto">
+                <div class="fotoperfil"><img class="fotoperfil" src="img/perfilsemfoto.png" width="70px"></div>
+                <div class="nomeconta"> Futville FC </div>
+            </div>
             <div class="titulos">
+
                 <div class="infos"> Patrimônio </div>
                 <div class="infos"> Última  pontuação </div>
                 <div class="infos"> Total </div>
@@ -69,6 +76,7 @@ else
                 <div class="pontos"> 51.37 </div>
                 <div class="pontos"> 155.72 </div>
             </div>
+           
 
         </div>
 

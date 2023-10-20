@@ -269,11 +269,9 @@ hr
 .nomeconta
 {
     text-transform:uppercase;
-    font-size: 20px;
-    font-weight: bold;
     font-size: 15px;
-    margin-left: 100px;
-    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
     
 }
 .titulos
@@ -291,6 +289,9 @@ hr
     color: rgb(136, 135, 135);
     margin-bottom: 5px;
     height: 5px;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-top: 20px;
 }
 .pontuacoes
 {
@@ -306,8 +307,41 @@ hr
     white-space: nowrap;
     margin-top: 5px;
     height: 50%;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 25px;
 }
 .fotoperfil
 {
-    width: 50px;
+    margin-right: 15px;
+    margin-top: auto;
+}
+.ver_perfil
+{
+    background-color: #ffffff; 
+    border: none; 
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    cursor: pointer;
+    border-radius: 6px; 
+    transition: 0.3s; 
+   
+    margin-left: 225px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+   
+}
+.nome_foto
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  
 }
