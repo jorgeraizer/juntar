@@ -253,7 +253,7 @@ hr
 .mercado
 {
     width: 89%;
-    height: 165px;
+    height: 190px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,15 +287,16 @@ hr
     font-size: 12px;
     white-space: nowrap;
     color: rgb(136, 135, 135);
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     height: 5px;
     margin-right: 22px;
     margin-left: 22px;
-    margin-top: 20px;
+ 
 }
 .pontuacoes
 {
     display: flex;
+    margin-bottom: 14px;
 }
 .pontos 
 {
@@ -309,7 +310,7 @@ hr
     height: 50%;
     margin-right: 35px;
     margin-left: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 .fotoperfil
 {
@@ -343,5 +344,9 @@ hr
     align-items: center;
     align-content: center;
     justify-content: space-around;
-  
+    
+}
+.fotoperfil
+{
+    margin-bottom: 15px;
 }
