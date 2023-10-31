@@ -62,7 +62,7 @@ else
                 <span class="Ver Perfil">VER PERFIL</span>
             </button>
             <div class="nome_foto">
-                <div class="fotoperfil"><img class="fotoperfil" src="img/perfilsemfoto.png" width="70px"></div>
+                <div class="fotoperfil"><img class="fotoperfil" src="img/perfilsemfoto.png" width="100px"></div>
                 <div class="nomeconta"> Futville FC </div>
             </div>
             <div class="titulos">
